@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorAccent">#F57C00</color>
+
+    <!-- Category colors -->
+    <color name="category_cityInfo">#FF5722</color>
+    <color name="category_cityActivities">#D32F2F</color>
+    <color name="category_cityMaps">#FF3300</color>
+    <color name="category_cityHotels">#FF5252</color>
+
+    <!-- list item colors -->
+    <color name="list_item_text">#FFFFFF</color>
+    <color name="list_item_background">#7C7C7C</color>
+    <color name="list_item_divider">#FFFFFF</color>
+
+</resources>

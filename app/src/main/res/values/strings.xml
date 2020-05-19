@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">My Tour Guide App</string>
+
+    <!-- Category names -->
+    <string name="category_cityInfo">About</string>
+    <string name="category_cityActivities">Activities</string>
+    <string name="category_cityMaps">Maps</string>
+    <string name="category_cityHotels">Hotels</string>
+
+    <!-- City Info -->
+    <string name="cityInfo_title">About the city of Toronto</string>
+    <string name="toronto_img">toronto img</string>
+    <string name="item_image">item_image</string>
+
+
+    <!-- City activities -->
+    <string name="activity_1_name">CN Tower</string>
+    <string name="activity_1_description">Iconic tower with a revolving restaurant</string>
+
+    <string name="activity_2_name">Toronto Islands</string>
+    <string name="activity_2_description">Offshore spot with beaches and recreation</string>
+
+    <string name="activity_3_name">Royal Ontario Museum</string>
+    <string name="activity_3_description">Huge range of culture and nature exhibits</string>
+
+    <string name="activity_4_name">Young-Dundas Square</string>
+    <string name="activity_4_description">Outdoor hub for live entertainment</string>
+
+    <string name="activity_5_name">Casa Loma</string>
+    <string name="activity_5_description">Stately castle with seasonal gardens</string>
+
+    <string name="activity_6_name">Scarborough Bluffs Park</string>
+    <string name="activity_6_description">Small park close to the lake and marina</string>
+
+
+    <!-- City maps -->
+    <string name="map_1_name">Toronto Metro</string>
+    <string name="map_1_description">Map of the Toronto subway system</string>
+
+    <string name="map_2_name">Toronto Street car</string>
+    <string name="map_2_description">Streetcar Routes run every 10 minutes</string>
+
+    <string name="map_3_name">GO Transit rail</string>
+    <string name="map_3_description">Services are provided throughout the Greater Toronto area</string>
+
+    <string name="map_4_name">Up express</string>
+    <string name="map_4_description">Service between Toronto Pearson International Airport and Union Station</string>
+
+
+    <!-- City hotels -->
+    <string name="hotel_1_name">Hotel - X</string>
+    <string name="hotel_1_description">Features waterfront and city skyline views</string>
+
+    <string name="hotel_2_name">Bisha Hotel</string>
+    <string name="hotel_2_description">Situated in the heart of downtown Toronto Entertainment District</string>
+
+    <string name="hotel_3_name">Four Seasons Hotel</string>
+    <string name="hotel_3_description">5-star hotel. Modern guest rooms feature various views of the city at this Toronto resort</string>
+
+    <string name="hotel_4_name">Shangri-La Hotel</string>
+    <string name="hotel_4_description">Centrally located between Toronto Financial and Entertainment Districts</string>
+
+    <string name="hotel_5_name">St. Regis Hotel</string>
+    <string name="hotel_5_description">Part of the Marriott family of hotels, combines elegance with modern amenities</string>
+
+    <string name="hotel_6_name">Ritz-Carlton Hotel</string>
+    <string name="hotel_6_description">Located centrally in the downtown core, overlooking Lake Ontario and the city skyline</string>
+
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/list_item_relative_layout_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/list_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/list_item_container_padding"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/list_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_image_height"
+            android:contentDescription="@string/item_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/list_item_Layout_text_padding"
+            android:paddingRight="@dimen/list_item_Layout_text_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/title_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:padding="@dimen/list_item_text_padding"
+                android:textColor="@color/list_item_text"
+                android:textStyle="bold"
+                tools:text="Some text" />
+
+            <TextView
+                android:id="@+id/description_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:padding="@dimen/list_item_text_padding"
+                android:textColor="@color/list_item_text"
+                tools:text="some more text" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_divider_height"
+        android:background="@color/list_item_divider" />
+
+
+</RelativeLayout>
